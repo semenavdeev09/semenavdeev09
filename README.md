@@ -1,37 +1,41 @@
-## Welcome to GitHub Pages
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta content="width=device-width, initial-scale=1" name="viewport">
+	<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet">
+	<style>
+	      body,
+	   button {
+	      background-color: #06162d;
+	   }
 
-You can use the [editor on GitHub](https://github.com/semenavdeev09/semenavdeev09/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
+	   .btn-copy .icon-after {
+	      display: none;
+	   }
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/semenavdeev09/semenavdeev09/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+	   .btn-copy.done .icon-before {
+	      display: none;
+	   }
+	   .btn-copy.done .icon-after {
+	      display: inline;
+	   }
+	</style>
+	<title>AAX Referral</title>
+</head>
+<body class="pb-5">
+	<div class="container">
+		<div class="row d-flex align-items-center align-content-center text-center">
+			<div class="col-12 mt-5 text-center">
+				<h2 class="font-weight-normal text-white">Click this button</h2>
+			</div>
+			<div class="col-12 col-sm-10 offset-sm-1 col-md-8 offset-md-2 col-lg-6 offset-lg-3">
+				<button class="btn border btn-lg text-white text-center" onclick="location.href = 'https://www.aax.com/en-US/invite/sign-up/?inviteCode=mZ8z1I6mZ74p';">Register</button>
+			</div>
+			<div class="col-12 mt-5 text-center">
+				<span class="h2 font-weight-normal text-white">or simply use this referral link <a class="d-none d-md-inline" href="https://www.aax.com/en-US/invite/sign-up/?inviteCode=mZ8z1I6mZ74p">here</a> to sign up for aax.com and get <u>$25 USD</u> for free.</span>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
